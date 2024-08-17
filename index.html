@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="andar">
+            <div class="titulo">
+                <h1>Primeiro Andar</h1>
+            </div>
+            <div class="ambientes">
+                <div class="coluna">
+                    <div class="ambiente livre" onclick="changeStatus(this)">
+                        <h2>Sala de Aula 1</h2>
+                        <p>Livre</p>
+                    </div>
+                    <div class="ambiente ocupado" onclick="changeStatus(this)">
+                        <h2>Laboratório de Informática 1</h2>
+                        <p>Ocupado</p>
+                    </div>
+                    <div class="ambiente ocupado" onclick="changeStatus(this)">
+                        <h2>Laboratório de Redes 1</h2>
+                        <p>Ocupado</p>
+                    </div>
+                    <div class="ambiente manutencao" onclick="changeStatus(this)">
+                        <h2>Sala de Professores</h2>
+                        <p>Manutenção</p>
+                    </div>
+                </div>
+                <div class="linha-vertical">
+                    Pátio
+                </div>
+                <div class="coluna">
+                    <div class="ambiente ocupado" onclick="changeStatus(this)">
+                        <h2>Sala de Aula 2</h2>
+                        <p>Ocupado</p>
+                    </div>
+                    <div class="ambiente livre" onclick="changeStatus(this)">
+                        <h2>Laboratório 2</h2>
+                        <p>Livre</p>
+                    </div>
+                    <div class="ambiente manutencao" onclick="changeStatus(this)">
+                        <h2>Sala de Aula 3</h2>
+                        <p>Manutenção</p>
+                    </div>
+                    <div class="ambiente ocupado" onclick="changeStatus(this)">
+                        <h2>Coordenação</h2>
+                        <p>Ocupado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="escada">
+            <span>Escada</span>
+        </div>
+        <div class="andar">
+            <div class="titulo">
+                <h1>Segundo Andar</h1>
+            </div>
+            <div class="ambiente livre" onclick="changeStatus(this)">
+                <h2>Sala de Aula 6</h2>
+                <p>Livre</p>
+            </div>
+            <div class="ambiente ocupado" onclick="changeStatus(this)">
+                <h2>Laboratório de Informática 3</h2>
+                <p>Ocupado</p>
+            </div>
+            <div class="ambiente livre" onclick="changeStatus(this)">
+                <h2>Sala de Aula 7</h2>
+                <p>Livre</p>
+            </div>
+            <div class="ambiente manutencao" onclick="changeStatus(this)">
+                <h2>Laboratório Redes sem fio</h2>
+                <p>Manutenção</p>
+            </div>
+            <div class="ambiente ocupado" onclick="changeStatus(this)">
+                <h2>Sala de aula 8</h2>
+                <p>Ocupado</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
